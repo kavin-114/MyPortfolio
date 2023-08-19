@@ -1,3 +1,7 @@
+import BasicPortfolio from '../images/BasicPortfolio.png'
+import HeroAvatar from '../images/HeroImage11.jpg'
+import Calculator from '../images/Calculator.png'
+import ResumeBuilder from '../images/ResumeBuilder.png'
 export const Bio = {
   name: "Kavin Seerangasamy",
   roles: [
@@ -328,74 +332,67 @@ export const projects = [
   {
     id: 0,
     title: "Basic Portfolio",
-    date: "Apr 2023 - May 2023",
+    date: "Apr 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "Developed a simple static personal portfolio using HTML, CSS, BootStrap and JavaScript",
+    image: BasicPortfolio,
+    tags: ["HTML5", "CSS3", "BootStrap", "JavaScript"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/kavin-114/Portfolio.git",
+    webapp: "https://kavin-114.github.io/Portfolio/",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Kavin Seerangasamy",
+        img: HeroAvatar,
+        linkedin: "https://www.linkedin.com/in/kavin114/",
+        github: "https://github.com/kavin-114/",
       },
     ],
   },
   {
     id: 1,
     title: "Calculator",
-    date: "Oct 2022 - Present",
+    date: "Apr 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Designed and developed the simple calculator, where impleemnted the logic using JavaScript to do mathematical calculations",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      Calculator,
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "BootStrap"
+   ],
+    category: "Calculator",
+    github: "https://github.com/kavin-114/JS-Repo",
+    webapp: "https://github.com/kavin-114/JS-Repo",
+    member: [
+      {
+        name: "Kavin Seerangasamy",
+        img: HeroAvatar,
+        linkedin: "https://www.linkedin.com/in/kavin114/",
+        github: "https://github.com/kavin-114/",
+      },
     ],
-    category: "To-Do Lsit",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
   },
   {
     id: 2,
     title: "Resume Builder",
-    date: "Jan 2023 - Mar 2023",
+    date: "May 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Developed a resume builder project, where users can create their resume template by simply giving inputs to the forms. The template updates lively once the user starts to enter inputs.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      ResumeBuilder,
+    tags: ["HTML5", "CSS3", "BootStrap", "JavaScript", "JQuery"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    github: "https://github.com/kavin-114/JS-Repo/tree/149f8b62e90c773cad03c9fbf22342dcd2950713/Resume%20Builder",
+    webapp: "https://kavin-resume-builder.netlify.app/",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        name: "Kavin Seerangasamy",
+        img: HeroAvatar,
+        linkedin: "https://www.linkedin.com/in/kavin114/",
+        github: "https://github.com/kavin-114/",
       },
     ],
   },
