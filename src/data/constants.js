@@ -2,6 +2,12 @@ import BasicPortfolio from '../images/BasicPortfolio.png'
 import HeroAvatar from '../images/HeroImage11.jpg'
 import Calculator from '../images/Calculator.png'
 import ResumeBuilder from '../images/ResumeBuilder.png'
+import Employee from '../images/Employee.png'
+import UserMangement from '../images/UserManagement.png'
+import BikeService from '../images/BikeServiceApp.png'
+import Inventory from '../images/Inventory.png'
+import AgroChat from '../images/AgroChat.png'
+
 export const Bio = {
   name: "Kavin Seerangasamy",
   roles: [
@@ -330,6 +336,18 @@ export const education = [
 
 export const projects = [
   {
+    id: 10,
+    title: "AgroChat - Online Forum",
+    date: "Aug 2023 - Present",
+    description:
+      "AgroChat is an online community forum for experienced farmers and enthusiastic beginners in agriculture, where users can share thier experiences and guide beginners to do famring inthier agricultural land in a good way.",
+    image:AgroChat,
+    tags: ["ReactJs", "SpringBoot", "Axios", "MySQL", "JPA"],
+    category: "Web app",
+    github: "https://github.com/kavin-114/AgroChat.git",
+    webapp: "Still in development stage",
+  },
+  {
     id: 0,
     title: "Basic Portfolio",
     date: "Apr 2023",
@@ -399,68 +417,52 @@ export const projects = [
   {
     id: 3,
     title: "Employee Management System",
-    date: "Dec 2021 - Apr 2022",
+    date: "July 2023",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      "This Web Application is used to maintain the data of employees with basic CRUD operations like add, edit, update and delete users. Admin can download the reports of employee records in CSV format",
+    image:Employee,
+    tags: ["Java","HTML", "CSS", "BootStrap", "JavaScript", "ReactJS", "Axios", "SpringBoot", "MySQL", "JPA"],
+    category: "Web App",
+    github: "https://github.com/kavin-114/Kavin-Ysquare-Task.git",
+    webapp: "https://employee-management-system-kavin.netlify.app/",
   },
   
   {
     id: 4,
     title: "User Management Project",
-    date: "Jul 2021",
+    date: "Jul 2023",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "User management application is used to manage user data with basic CRUD operation.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      UserMangement,
+    tags: ["React Js", "Node JS", "MongoDB", "BootStrap", "Axios"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    github: "https://github.com/kavin-114/MERN-CRUD.git",
+    webapp: "https://user-management-site-kavin.netlify.app/",
   },
   {
     id: 5,
     title: "Bike Service Application",
-    date: "Jun 2021",
+    date: "Jul 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+      " A Bike Service Application is for owners of Bike service stations. It helps the owners to list all the services they offer. Customers can choose one or more services to book. Once the user books a service or owner completes the service they both receive an email notification repectively.",
+    image:BikeService,
+    tags: ["React Js", "Node JS", "BootStrap", "MongoDB", "Moongoose", "Axios", "nodemailer"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "https://github.com/kavin-114/Bike-Service-Project.git",
+    webapp: "https://bike-service-application.netlify.app/",
   },
   {
     id: 6,
     title: "Inventory Management System",
     date: "Jun 2021",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+      "Developed an Inventory Management system using Flask Framework and MySQL for the database. Where the user can add/edit and also move the products from one warehouse to another warehouse location. Finally, user can download the reports as CSV files to share the data.",
+    image:Inventory,
+    tags: ["Python", "Flask", "API", "Axios", "MySQL"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 10,
-    title: "AgroChat - Online Forum",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    github: "https://github.com/kavin-114/Inventory-Flask-Task.git",
+    webapp: "https://bike-service-application.netlify.app/",
   },
 ];
 
